@@ -1,0 +1,114 @@
+{
+    "chainId": 80001,
+    "collaterals": [
+      {
+        "address": "0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa",
+        "decimals": 18,
+        "name": "Wrapped Ether",
+        "priceFeedAddress": "0xc3F7119D081bdA5bfF8C4Fc066F5C02e9da8C713",
+        "symbol": "WETH"
+      },
+      {
+        "address": "0x12dbdBCd093d95205cc8C302659d8b7f5a71246c",
+        "decimals": 18,
+        "name": "USD Coin",
+        "priceFeedAddress": "0xF2DE61855139eCa1EaEBB8D21c9fE8C7F692FA94",
+        "symbol": "USDC"
+      }
+    ],
+    "contracts": {
+      "AccountBalance": {
+        "address": "0x8b51d4D378D001bc4eC3047CeC1239bcc454c8AA",
+        "createdBlockNumber": 513569,
+        "name": "contracts/AccountBalance.sol:AccountBalance"
+      },
+      "ClearingHouse": {
+        "address": "0xFB048130fe085Ad32cBfda3EB090Ba1451f809E9",
+        "createdBlockNumber": 513591,
+        "name": "contracts/ClearingHouse.sol:ClearingHouse"
+      },
+      "ClearingHouseConfig": {
+        "address": "0x19bFEaE34EBB184A6491adC44ac5e871Bf524d29",
+        "createdBlockNumber": 513473,
+        "name": "contracts/ClearingHouseConfig.sol:ClearingHouseConfig"
+      },
+      "CollateralManager": {
+        "address": "0x5177FDdc93aB3B42ca9bEEB0A6da9e8511B8eA4C",
+        "createdBlockNumber": 6465083,
+        "name": "contracts/CollateralManager.sol:CollateralManager"
+      },
+      "DelegateApproval": {
+        "address": "0x8b456a8d6EE3712D0809c8401E9eD43E8C9fD459",
+        "createdBlockNumber": 13868230,
+        "name": "contracts/DelegateApproval.sol:DelegateApproval"
+      },
+      "ETHUSDChainlinkPriceFeed": {
+        "address": "0xc3F7119D081bdA5bfF8C4Fc066F5C02e9da8C713",
+        "createdBlockNumber": 12416173,
+        "name": "contracts/ChainlinkPriceFeed.sol:ChainlinkPriceFeed"
+      },
+      "ETHUSDChainlinkPriceFeedV2": {
+        "address": "0x92defA66d2f89f9aEb46724ead9617e0459E4eC7",
+        "createdBlockNumber": 12110538,
+        "name": "contracts/ChainlinkPriceFeedV2.sol:ChainlinkPriceFeedV2"
+      },
+      "Exchange": {
+        "address": "0xe3CFEDc4ebBa65F43C3a1B1CA30AccbBdfC99298",
+        "createdBlockNumber": 513559,
+        "name": "contracts/Exchange.sol:Exchange"
+      },
+      "InsuranceFund": {
+        "address": "0xA90752966F7486591981f5a35d321780bBc615A6",
+        "createdBlockNumber": 513530,
+        "name": "contracts/InsuranceFund.sol:InsuranceFund"
+      },
+      "MarketRegistry": {
+        "address": "0x4214A0147C490CeDb6D744548C552C3d2C86cdA9",
+        "createdBlockNumber": 513520,
+        "name": "contracts/MarketRegistry.sol:MarketRegistry"
+      },
+      "OrderBook": {
+        "address": "0x992e3623Cd4d157a0C637361Cd79497B24653177",
+        "createdBlockNumber": 513540,
+        "name": "contracts/OrderBook.sol:OrderBook"
+      },
+      "PriceFeedUpdater": {
+        "address": "",
+        "createdBlockNumber": 45564218,
+        "name": "contracts/PriceFeedUpdater.sol:PriceFeedUpdater"
+      },
+      "QuoteToken": {
+        "address": "0x9F8E2d87295d80b6B2B1aF17529515982242Bfba",
+        "createdBlockNumber": 513502,
+        "name": "contracts/QuoteToken.sol:QuoteToken"
+      },
+      "Vault": {
+        "address": "0x199D9AB86FaE43C9120f53958Eb1f2294C36CA26",
+        "createdBlockNumber": 513580,
+        "name": "contracts/Vault.sol:Vault"
+      },
+      "vETH": {
+        "address": "0x84A313c6cfAD62A8C09a0581686db16dbcC3a1E1",
+        "createdBlockNumber": 513630,
+        "name": "contracts/BaseToken.sol:BaseToken"
+      }
+    },
+    "externalContracts": {
+      "DefaultProxyAdmin": "0xde6A7377B64734Fabb3B0Ed4724A5479Ee391705",
+      "OP": "0x4200000000000000000000000000000000000042",
+      "USDT": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+      "UniswapV3Factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "WETH9": "0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa"
+    },
+    "network": "mumbai",
+    "pools": [
+      {
+        "address": "0xE777924385d404bF06Cc0D3ac12547e50bB57C3D",
+        "baseAddress": "0x84A313c6cfAD62A8C09a0581686db16dbcC3a1E1",
+        "baseSymbol": "vETH",
+        "quoteAddress": "0x9F8E2d87295d80b6B2B1aF17529515982242Bfba",
+        "quoteSymbol": "vUSD"
+      }
+    ]
+  }
+  
