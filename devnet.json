@@ -9,11 +9,11 @@
         "symbol": "WETH"
       },
       {
-        "address": "0x12dbdBCd093d95205cc8C302659d8b7f5a71246c",
-        "decimals": 18,
-        "name": "USD Coin",
+        "address": "0x61cf1EC5cA60f00BcE04B970551d451634c0de3c",
+        "decimals": 6,
+        "name": "Tether USD",
         "priceFeedAddress": "0xF2DE61855139eCa1EaEBB8D21c9fE8C7F692FA94",
-        "symbol": "USDC"
+        "symbol": "USDT"
       }
     ],
     "contracts": {
@@ -96,7 +96,8 @@
     "externalContracts": {
       "DefaultProxyAdmin": "0xde6A7377B64734Fabb3B0Ed4724A5479Ee391705",
       "OP": "0x4200000000000000000000000000000000000042",
-      "USDT": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+      "USDT": "0x61cf1EC5cA60f00BcE04B970551d451634c0de3c",
+      "USDC": "0x58ed5E60B9223dB143A6EeC998e8c232A45E119B",
       "UniswapV3Factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
       "WETH9": "0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa"
     },
