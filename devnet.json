@@ -18,22 +18,22 @@
     ],
     "contracts": {
       "AccountBalance": {
-        "address": "0x8b51d4D378D001bc4eC3047CeC1239bcc454c8AA",
+        "address": "0x3c72a0F3DE6d60d4AC1f019060fc7d866E045c40",
         "createdBlockNumber": 513569,
         "name": "contracts/AccountBalance.sol:AccountBalance"
       },
       "ClearingHouse": {
-        "address": "0xFB048130fe085Ad32cBfda3EB090Ba1451f809E9",
+        "address": "0xA726995FEA14b9e66F9456C399b8E8EaA1Fb337e",
         "createdBlockNumber": 513591,
         "name": "contracts/ClearingHouse.sol:ClearingHouse"
       },
       "ClearingHouseConfig": {
-        "address": "0x19bFEaE34EBB184A6491adC44ac5e871Bf524d29",
+        "address": "0x155997281ec7567b45a9a9175A09112a95bB0114",
         "createdBlockNumber": 513473,
         "name": "contracts/ClearingHouseConfig.sol:ClearingHouseConfig"
       },
       "CollateralManager": {
-        "address": "0x5177FDdc93aB3B42ca9bEEB0A6da9e8511B8eA4C",
+        "address": "0x332649aDf3Dd535A866FDDEAce72143175442E00",
         "createdBlockNumber": 6465083,
         "name": "contracts/CollateralManager.sol:CollateralManager"
       },
@@ -53,22 +53,22 @@
         "name": "contracts/ChainlinkPriceFeedV2.sol:ChainlinkPriceFeedV2"
       },
       "Exchange": {
-        "address": "0xe3CFEDc4ebBa65F43C3a1B1CA30AccbBdfC99298",
+        "address": "0xD80dA49c09B2F399511BfC9440DD44480F752F5d",
         "createdBlockNumber": 513559,
         "name": "contracts/Exchange.sol:Exchange"
       },
       "InsuranceFund": {
-        "address": "0xA90752966F7486591981f5a35d321780bBc615A6",
+        "address": "0xbdB6F08f3Ff195f6F75f9FfE7DC97A94b773Ddd3",
         "createdBlockNumber": 513530,
         "name": "contracts/InsuranceFund.sol:InsuranceFund"
       },
       "MarketRegistry": {
-        "address": "0x4214A0147C490CeDb6D744548C552C3d2C86cdA9",
+        "address": "0x54B62E0B510671907E5f657dEc521f49A9528B59",
         "createdBlockNumber": 513520,
         "name": "contracts/MarketRegistry.sol:MarketRegistry"
       },
       "OrderBook": {
-        "address": "0x992e3623Cd4d157a0C637361Cd79497B24653177",
+        "address": "0xE304A265DF460Ca7d232d17a8eB6694edf4E4301",
         "createdBlockNumber": 513540,
         "name": "contracts/OrderBook.sol:OrderBook"
       },
@@ -78,17 +78,17 @@
         "name": "contracts/PriceFeedUpdater.sol:PriceFeedUpdater"
       },
       "QuoteToken": {
-        "address": "0x9F8E2d87295d80b6B2B1aF17529515982242Bfba",
+        "address": "0x414B95164ad0db54693DD980cEe6D74ab0EF0219",
         "createdBlockNumber": 513502,
         "name": "contracts/QuoteToken.sol:QuoteToken"
       },
       "Vault": {
-        "address": "0x199D9AB86FaE43C9120f53958Eb1f2294C36CA26",
+        "address": "0x82f7C9d65Dd9996b4dC9f8a5172876418C239845",
         "createdBlockNumber": 513580,
         "name": "contracts/Vault.sol:Vault"
       },
       "vETH": {
-        "address": "0x84A313c6cfAD62A8C09a0581686db16dbcC3a1E1",
+        "address": "0x130cb9B61199E31e1D23173cCCA27c381a562Ac6",
         "createdBlockNumber": 513630,
         "name": "contracts/BaseToken.sol:BaseToken"
       }
@@ -104,10 +104,10 @@
     "network": "mumbai",
     "pools": [
       {
-        "address": "0xE777924385d404bF06Cc0D3ac12547e50bB57C3D",
-        "baseAddress": "0x84A313c6cfAD62A8C09a0581686db16dbcC3a1E1",
+        "address": "0x98bb89257be3a1f490b34609f087f795141a7989",
+        "baseAddress": "0x130cb9B61199E31e1D23173cCCA27c381a562Ac6",
         "baseSymbol": "vETH",
-        "quoteAddress": "0x9F8E2d87295d80b6B2B1aF17529515982242Bfba",
+        "quoteAddress": "0x414B95164ad0db54693DD980cEe6D74ab0EF0219",
         "quoteSymbol": "vUSD"
       }
     ]
